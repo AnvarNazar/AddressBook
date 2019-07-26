@@ -23,11 +23,13 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
+        addressbook.cpp \
         addressbookentry.cpp \
         main.cpp \
         mainwindow.cpp
 
 HEADERS += \
+        addressbook.h \
         addressbookentry.h \
         mainwindow.h
 
